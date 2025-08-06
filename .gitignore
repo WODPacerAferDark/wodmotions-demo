@@ -41,6 +41,6 @@ next-env.d.ts
 # wrangler files
 .wrangler
 .dev.vars*
-
-# IDE
-*.code-workspace
+!.dev.vars.example
+.env*
+!.env.example
